@@ -13,20 +13,27 @@ header {
     padding: 5px;
     text-align: right;
     background: #358bdb;
-    color: #fff;
+    color: #358bdb;
+    height: 65px;
 }
 
 
-h1 {
+h2 {
     text-align: left;
-    font-size: xx-large;
+    font-size: 22px;
     margin-right: 1450px;
 }
 
 
 #name {
-    background-color: blue;
-    height: 50px;
+    
+    width: 200px;
+  border: 3px solid red;
+  padding: 20px;
+  margin: -3px;
+  background-color: red;
+  height: 20px;
+    text-align: start
 }
 
 
@@ -35,21 +42,29 @@ h1 {
     color: white;
     font-size:small;
     display: inline;
-    padding: 0%;
+    padding: 10%;
     list-style: none;
-    line-height: 0%;
+    line-height: 30%;
+    margin-top: 500px;
 }
 
 
 li {
     display: inline;
     list-style-type: none;
-    font-size: 40px;
+    padding-top: 30px;
     padding-right: 5px;
     text-align: left;
     text-decoration: underline;
-    margin-top: 50% ;
+  
+    padding: 10px;
+  font-size: large;
+  
+  
+  height: 900px;
+  
 }
+
 
 
 .blue img {
@@ -81,11 +96,6 @@ li {
 }
 
 
-#cool {
-    background-color: blue;
-    height: 50px;
-}
-
 
 .para {
     text-align: left;
@@ -105,7 +115,7 @@ li {
     position: absolute;
     left: 15%;
     margin-left: -3px;
-    top: 500px;
+    top: 370px;
 }
 
 
@@ -119,44 +129,34 @@ li {
    position: relative; bottom:60px;
 }
 
-
-p {
-    text-align: end;
-}
-
-
 .lane {
     border-left: 6px solid rgb(64, 64, 133);
     height: 1000px;
     position: absolute;
     left: 15%;
     margin-left: -3px;
-    top: 805px; 
+    top: 705px; 
 }
+
 
 
 .row {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
-    margin-left: -1.5rem;
-     margin-right: -1.5rem;
+    padding: 0 10px;
 }
-
-
-.row::after {
-    content: "";
-    display: flex;
-    
-}
-
-
+  
+  /* Create two equal columns that sits next to each other */
 .column {
-    float: left;
-    width: 33.3%;
-    padding: 5px;
-    position: relative;
+    flex: 50%;
+    padding: 0 4px;
 }
+  
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
 
 
 .container {
@@ -183,106 +183,123 @@ p {
     border: 5px solid salmon;
     align-self: left;
     size: 1000px;
-    margin-left: 1100px;
+    margin-left: 180px;
     display: flex;
     order: 5;
     flex-direction: row;
     height: 500px;
     flex-wrap: wrap;
+    margin-top: -50px;
+    
+    
 }
 
 
-  /* Bottom right text */
+
+  
 #text-block1 {
     position: absolute;
-    bottom: 30px;
+    bottom: -450px;
     left: 5px;
     background-color: salmon;
     color: white;
     padding-left: 30px;
     padding-right: 20px;
-    margin-left: 230px;
+    margin-left: 180px;
+    margin-bottom: 460px;
 }
 
 
 .red {
-    width: 500px;
+    width: 400px;
     border: 5px solid salmon;
     align-self: left;
     size: 50px;
     margin-left: 390px;
     display: flex;
-    order: 5;
+    order: 2;
     flex-direction: row;
-    margin-bottom: 500px;
+    margin-bottom: 0px;
     flex-wrap: wrap;
     height: 200px;
+    margin-left: 150px;
+    
 }
 
 
 #text-block2 {
     position: absolute;
-    bottom: 520px;
+    bottom: 0px;
     left: 5px;
     background-color: salmon;
     color: white;
     padding-left: 30px;
     padding-right: 20px;
-    margin-left: 230px;
+    margin-left: 180px;
+    
+   
 }
 
 
 #text-block3 {
     position: absolute;
-    bottom: 530px;
+    bottom: 0px;
     left: -96px;
     background-color: salmon;
     color: white;
     padding-left: 30px;
     padding-right: 20px;
-    margin-left: 320px;
+    margin-left: 280px;
 }
 
 
 .real {
-    width: 500px;
+    width: 400px;
     border: 5px solid salmon;
     align-self: left;
     size: 50px;
     margin-left: 340px;
     display: flex;
-    order: 5;
+    order: 2;
     flex-direction: row;
-    margin-bottom: 500px;
+    margin-bottom: 0px;
     flex-wrap: wrap;
     height: 200px;
-    position: relative;
-    top: -500px;
+   
+    top: 500px;
+    margin-left: 150px;
 }
 
 
 #text-block4 {
     position: absolute;
-    bottom: 1020px;
+    bottom: 0px;
     left: 5px;
     background-color: salmon;
     color: white;
     padding-left: 30px;
     padding-right: 20px;
-    margin-left: 230px;
+    margin-left: 180px;
+    margin-bottom: 20px;
 }
 
 
 #text-block5 {
     position: absolute;
-    bottom: 1020px;
+    bottom: 0px;
     left: 5px;
     background-color: salmon;
     color: white;
     padding-left: 30px;
     padding-right: 20px;
-    margin-left: 215px;
+    margin-left: 180px;
 }
+
+
+#contact {
+    position: relative;
+}
+
 
 
 .lene {
@@ -306,13 +323,14 @@ p {
     text-align: start;
    margin-bottom: 50px;
    position: relative; 
-   bottom:70px;
+   bottom:0px;
 }
 
- 
-@media only screen and (max-width: 768px) {
+
+@media screen and (max-width: 1200px) {
     main {
         flex-direction: column;
+        max-width: 1200px;
     }
 }
 
@@ -340,3 +358,33 @@ p {
         flex-direction: column;
     }
 }
+
+@media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
